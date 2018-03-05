@@ -1,0 +1,194 @@
+@font-face {
+  font-family: "partybusiness";
+  src: url("../font/partybusiness.ttf");
+}
+@font-face {
+  font-family: "tengwarc";
+  src:   url("../font/Tengwarc.ttf");
+}
+@font-face {
+  font-family: "anim";
+  src: url("../font/anicb.ttf");
+}
+
+@@font-face {
+  font-family: "anicm";
+  scr: url("../font/anicm.ttf");
+}
+/* navbar */
+.navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+      background-color: #fc6020;
+}
+#no-border {
+  border-left: none;
+}
+.navtext {
+  color:white;
+  font-family: "partybusiness"; Arial;
+  font-size: 35px;
+  margin-top: 1%;
+  border-left: 2px solid white;
+  }
+.navbar-brand {
+  margin-bottom: 3%;
+  margin-top: 2%;
+}
+/* caroussel */
+.carrousel_text {
+  position:absolute;
+  top:2em;
+  color:white;
+  font-size:5em;
+  width:90%;
+  font-family: "partybusiness"; Arial;
+  left: 18%;
+  top: 30%;
+}
+/* Section thumbnails */
+.thumbnails {
+  background-color: #eeefe3;
+}
+.symbol_title {
+  font-size: 1em;
+}
+h1 {
+  font-size: 1em;
+  margin-top: 0px;
+  padding-top: 35px;
+  text-align: center;
+  font-family: "anim";
+}
+.titre1 {
+  font-size: 1.4em;
+}
+.inline_text {
+  font-family: "anim";
+  font-size: 1.3em;
+  text-align: center;
+}
+.symbol_title {
+  color: #373737;
+  font-size: 2em;
+}
+.list-inline {
+  diplay: flex;
+  justify-content: center;
+  color: #373737;
+  padding-top: 25px;
+}
+/* Section img-hover */
+.thumbnails {
+  padding-bottom: 50px;
+}
+.symbol {
+    color: orange;
+    font-size: 4em;
+}
+.img_sauron {
+  width: 100%;
+  opacity: 0.7;
+}
+.bloc {
+  transition: .5s ease;
+  position: absolute;
+  top: 20%;
+  left: 42%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #F8F8FF;
+  border-radius: 20px;
+  width: 80%;
+  opacity: 0.7;
+}
+.img_text {
+  font-size: 20px;
+  text-align: center;
+  font-family: "partybusiness";
+}
+.img_argent {
+  color: #F4A460;
+}
+.img_name {
+  transition: .5s ease;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  color: white;
+  font-size: 43px;
+  font-family: "partybusiness";
+}
+.img_bloc:hover .bloc {
+  opacity: 0;
+}
+.img_bloc:hover .img_name {
+  transition: .5s ease;
+  position: absolute;
+  top: 60%;
+  left: 28%;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  font-family: "partybusiness";
+}
+.img_bloc:hover .img_sauron {
+  width: 100%;
+  opacity: 1;
+}
+.img_bloc {
+background-color: black;
+right: 4.3%;
+}
+.img_legend {
+  font-family: "partybusiness";
+  color: grey;
+  font-size: 25px;
+}
+.bloc_invisible {
+  transition: .5s ease;
+  position: absolute;
+  top: 20%;
+  left: 42%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  border-radius: 20px;
+  width: 80%;
+}
+.img_text_gimli {
+    font-size: 50px;
+    text-align: center;
+    font-family: "partybusiness";
+    color: orange;
+}
+.img_bloc:hover .bloc_invisible {
+  opacity: 0;
+}
+/* Section contact */
+.contact {
+  background-color: #1B1E1E;
+}
+.contact_titre{
+  color: white;
+}
+.bloc_button {
+  padding-bottom: 40px;
+  padding-top: 25px;
+}
+.text_form {
+  color: white;
+  padding-bottom: 10px;
+}
+/* Section footer */
+footer {
+    background-color: #fc6020;
+}
+ul {
+  list-style-type: none;
+  padding-top: 10px;
+}
+.li_color {
+  color: white;
+  font-family: "partybusiness";
+  font-size: 20px;
+}
